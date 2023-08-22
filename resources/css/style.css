@@ -1,0 +1,18 @@
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.pagination .page-link {
+    padding: 0.25rem 0.5rem;
+}
+.pagination .page-item:first-child .page-link::before {
+    content: "Voltar";
+    margin-right: 0.5rem;
+}
+.pagination .page-item:last-child .page-link::after {
+    content: "Avançar";
+    margin-left: 0.5rem;
+}
